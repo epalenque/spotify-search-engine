@@ -1,0 +1,15 @@
+.albums {
+  margin-top: 32px;
+}
+
+.albums__title {
+  margin-bottom: 32px;
+}
+
+.albums-list {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  column-gap: 5%;
+  row-gap: 64px;
+  justify-items: center;
+}

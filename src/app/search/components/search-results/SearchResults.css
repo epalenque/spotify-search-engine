@@ -1,0 +1,15 @@
+.search-results {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-results__empty {
+  height: 50vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-results__empty-title {
+  font-size: 1.25rem;
+}

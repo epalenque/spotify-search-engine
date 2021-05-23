@@ -1,0 +1,37 @@
+.artists {
+  margin-top: 32px;
+}
+
+.artists__title {
+  margin-bottom: 32px;
+}
+
+.artists-list {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  column-gap: 5%;
+  row-gap: 64px;
+  justify-items: center;
+}
+
+.artists-item {
+  width: 128px;
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  border: 1px solid var(--white);
+  border-radius: 10%;
+}
+
+.artists-item__image {
+  width: 64px;
+  height: 64px;
+}
+
+.artists-item__title {
+  text-decoration: none;
+  color: var(--green);
+}
